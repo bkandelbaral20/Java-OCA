@@ -1,19 +1,19 @@
 package OCA;
 
+import javax.swing.*;
+
 public class Car {
     private  String color;
    private  String type;
 
-   static String start(){
-       return ("Get started!");
-   }
-
-   void printDescription(){
-       System.out.println("This is a " + color + " " + type);
-   }
 
     public static void main(String[] args) {
-        System.out.println(start());
 
+//   Instantiating object
+        Car myCar = new Car();
+        myCar.color ="black";
+        myCar.type ="DeLorean DMC-12";
+
+        System.out.println("My car is in " + myCar.color + " color and " + myCar.type + " type" );
     }
 }
