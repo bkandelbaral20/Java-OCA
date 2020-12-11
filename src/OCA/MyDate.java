@@ -23,7 +23,7 @@ public class MyDate {
 
     public static void main(String[] args) {
         MyDate date = new MyDate();
-        System.out.println(date.toString(11,04,2020));
+        System.out.println(date.toString());
 
     }
 
