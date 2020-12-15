@@ -15,11 +15,16 @@ public class Order {
         return tips;
     }
 
+    double withoutTip(double price) {
+        return price;
+    }
+
     public static void main(String[] args) {
 
 //    add an instance method to use the static data in order
         Order o = new Order();
         System.out.println(totalPrice(20,2));
         System.out.println(tips(10));
+        System.out.println(o.withoutTip(23));
     }
 }
